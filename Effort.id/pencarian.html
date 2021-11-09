@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pencarian</title>
+    </head>
+    <body>
+            <label for ="pencarian"></label>
+            <input type="text" name="search" id="search"  oninput="proses()">
+            <a href="pencarian1.html"><button>Cari</button></a>
+
+            <p id="out_cari"> </p>	
+        <script>
+            function proses() {
+                p_cari = document.getElementById("search").value; 
+
+                document.getElementById("out_cari").innerHTML="pencarian   " + p_cari;
+            }
+        </script>
+    </body>
+    <footer>
+            <table border="0" align="center">
+                    <th>
+                        <td>gmail : effort.id@gmail.com</td>
+                        <td>ig : @officialeffort.id</td>
+                        <td>fb : @officialeffort.id</td>
+                        <td>wa : 082134567891</td> 
+                    </th>
+            </table>
+    </footer>
+</html>

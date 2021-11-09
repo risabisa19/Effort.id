@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <style>
+        div.a {
+            text-align: center;
+        }
+    </style>
+    <form>
+        <div class="container" >
+         <h2>EFFORT.id</h2>
+        </div>
+
+        <div>
+            <p>WELCOME BACK!</p>
+           <p> login to continue </p>
+        </div><br>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Username" name="uname"><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" value="" id="inputPassword">        
+          <br>
+          <input type="checkbox" onclick="myFunction()">Tampilkan Password
+      <script>
+          function myFunction() {
+              var x = document.getElementById("inputPassword");
+              if (x.type === "password") {
+                  x.type = "text";
+              } else {
+                  x.type = "password";
+              }
+          }
+      </script>
+
+          <br><button type="submit">Login</button>
+          <label>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </label><br>
+
+         <p>new user? <a href="singup.html">SIGN UP</a> </p>
+
+        </div>
+      </form>
+      <footer>
+            <p>login with</p>   
+                | <label name="google">google<a href="https://accounts.google.com/signin/v2/identifier?hl=id&refresh=1)%2C&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></label>
+                | <label name="facebook">facebook<a href="https://www.facebook.com/login/"></label>
+                | <label name="twitter">twitter<a href="https://twitter.com/"></label>
+                | <label name="linkedin">linkedin<a href="www.linkedin.com"></label>
+      
+      </footer>
+</body>
+</html>
